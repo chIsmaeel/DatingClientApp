@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-concentric-order",
+    "./node_modules/prettier-stylelint/config.js"
+  ],
+  "rules": {
+    "at-rule-no-unknown": null,
+    "selector-type-no-unknown": null
+  }
+}
